@@ -22,10 +22,6 @@ const string t2 = "    1:00  C++";
 const string w3 = "    2:00  Classical Physics";
 const string th1 = "    2:00  Classical Physics";
 
- 
-
-
-
 int main()
 {
 	cout << "Monday ";
@@ -39,7 +35,22 @@ int main()
 	cout << "\n";
 	cout << "Tuesday ";
 	printt1();
-
+	cout << "\n";
+	cout << "Tueday ";
+	printt2();
+	cout << "\n";
+	cout << "Wednesday ";
+	printclass1();
+	cout << "\n";
+	cout << "Wednesday";
+	printclass2();
+	cout << "\n";
+	cout << "Wednesday";
+	printw3();
+	cout << "\n";
+	cout << "Thursdays";
+	printth1();
+	cout << "\n";
 	return 0;
 
 }
@@ -64,6 +75,7 @@ void printt1()
 {
 	cout <<t1;
 }
+
 
 
 
